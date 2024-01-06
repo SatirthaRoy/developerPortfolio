@@ -199,3 +199,57 @@ main {
   width: 200px;
   margin: 20px 0px 20px 30px;
 }
+
+/* Resume section styles */
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-exp {
+  column-gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+  margin-bottom: 50px;
+}
+
+.education-exp div  {
+}
+
+.education-experience-detail h4 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  color: #474747;
+}
+
+.education-experience-detail div span{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #757575;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+
+}
+
+.education-experience-detail div h5 {
+  margin: 0px;
+  color: #474747;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.education-experience-detail div p {
+  width: 511px;
+  margin-right: 50px;
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
