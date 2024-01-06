@@ -1,5 +1,6 @@
 /* common shared styles */
 * {
+  line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Sarabun', sans-serif;
 }
@@ -42,6 +43,10 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400
+}
+
+hr {
+  color: #D1D1D1;
 }
 
 /* nav releted styles */
@@ -104,14 +109,25 @@ header {
   max-width: 585px;
   margin-bottom: 30px;
   margin-top: 0px;
+  color: #757575;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .profile-pic {
   height: 500px;
 }
 
+.contact {
+  background-color: #18181800;
+  color: #FD6E0A;
+  border: 1px solid #FD6E0A;
+  margin-left: 30px;
+}
+
 /* main sections styles */
-main {
+main{
   width: 1140px;
   margin: 0px auto;
 }
@@ -246,10 +262,69 @@ main {
 }
 
 .education-experience-detail div p {
-  width: 511px;
+  width: 510px;
   margin-right: 50px;
   color: #757575;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+}
+
+/* Footer section */
+
+footer {
+  column-gap: 117px;
+  background-color: #FFF8F3;
+  padding: 130px 230px;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social, form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-title {
+  color: #181818;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+form label input{
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  width: 460px;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+}
+
+form textarea {
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+}
+
+.social p {
+  color: #474747;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.icons a {
+  margin-right: 24px;
 }
