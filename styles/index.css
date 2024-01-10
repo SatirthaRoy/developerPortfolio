@@ -279,6 +279,11 @@ footer {
   flex-direction: column;
   align-items: flex-start;
 }
+
+form {
+  width: 70%;
+}
+
 .footer-title {
   color: #181818;
   font-size: 35px;
@@ -312,7 +317,9 @@ form textarea {
   border: none;
   border-radius: 5px;
   margin-bottom: 24px;
-  padding: 18px 30px;
+  padding: 18px 0px;
+  padding-left: 30px;
+  width: calc(100% - 30px)
 }
 
 .social p {
@@ -335,7 +342,7 @@ form textarea {
 
 /* mobile devices */
 @media screen and (max-width: 576px) {
-  main {
+  main, form {
     width: 100%;
   }
   
@@ -375,6 +382,18 @@ form textarea {
 
 /* for medium devices */
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 1290px) {
+  main {
+    width: 100%;
+  }
+
+  .skills, .personal-info {
+    flex-wrap: wrap;
+  }
+
+  footer, .about {
+    padding: 130px 32px;
+  }
+
   
 }
